@@ -1,4 +1,4 @@
-# Full-Stack Python Backend
+# Swello Backend
 
 This is the backend service for Swello, built with FastAPI and PostgreSQL.
 

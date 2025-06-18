@@ -1,4 +1,4 @@
-# Full-Stack Python Frontend
+# Swello Frontend
 
 This is the frontend for Swello, built with React, TypeScript, and Vite.
 

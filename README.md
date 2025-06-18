@@ -1,4 +1,4 @@
-# Full-Stack Python Web App
+# Swello
 
 Swello is a full-stack web application with a FastAPI backend and a React + Vite frontend.
 

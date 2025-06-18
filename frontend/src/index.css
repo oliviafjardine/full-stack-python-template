@@ -1,12 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import "tailwindcss";
 
-/* ==== CSS Variables ==== */
+/* ==== CSS Variables & Base Styles ==== */
 @layer base {
-	:root {
-		
-	}
+  :root {
+    --navbar-height: 64px;
+    --font-sans: 'Roboto', sans-serif;
+    --color-primary: #2563eb;
+  }
 
-	html {
-		scroll-behavior: smooth;
-	}
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white font-sans;
+  }
+
+  /* Set margins on structural elements */
+  header, nav, footer {
+    @apply mx-4;
+  }
+
+  main {
+    @apply mx-auto max-w-7xl px-4;
+  }
+
+  a {
+    @apply hover:underline;
+  }
+
+  h1, h2, h3 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-4xl mb-4;
+  }
+
+  h2 {
+    @apply text-3xl mb-3;
+  }
+
+  h3 {
+    @apply text-2xl mb-2;
+  }
+
+  p {
+    @apply mb-4;
+  }
 }
