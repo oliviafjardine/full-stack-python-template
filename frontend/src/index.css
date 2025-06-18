@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* ==== CSS Variables ==== */
+@layer base {
+	:root {
+		
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+}
